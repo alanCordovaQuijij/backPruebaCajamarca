@@ -27,3 +27,9 @@ model user {
   password String @db.VarChar
 
 }
+
+model photos {
+  id Int @id
+  title String @db.VarChar
+  url String @db.VarChar
+}
